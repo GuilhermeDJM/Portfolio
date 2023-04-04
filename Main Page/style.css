@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:wght@500&family=Source+Sans+Pro:wght@200&display=swap');
+
+body{
+    background: url("../Images/background.png") no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+#background2{
+    background-color: black;
+    width: 10000px;
+    height: 10000px;
+    margin: -2500px;
+    opacity: 90%;
+    padding: 0px;
+    position: absolute;
+    z-index: -100;
+}
+
+#icon{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 45%;
+    margin-top: 8%;
+}
+
+.texts{
+    z-index: 10;
+    color: white;
+}
+
+#title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
+    margin-left: 32%;
+    color: #8F00FF;
+}
+
+#bio{
+    font-size: 17px;
+    margin-left: 24%;
+    width: 50%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#navigation input{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+#navigation input:hover{
+    max-width: 45px;
+    max-height: 45px;
+}
+
+#navigation{
+    margin-top: 1%  ;
+    margin-left: 37%;
+}
